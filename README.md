@@ -24,7 +24,7 @@ Follow this [documentation](https://docs.docker.com/install/) to install Docker 
 
 For example, you can then run the tool by executing the command below to search for elasticsearch images
 
-`python client.py --search images`
+`python client.py --search elasticsearch`
 
 
 
