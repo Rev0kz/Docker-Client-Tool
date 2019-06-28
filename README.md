@@ -20,7 +20,11 @@ You can install Click by using the following command:
 
 `pip install Click`   
 
-Follow this [documentation](https://docs.docker.com/install/) to install Docker CE on Linux or Windows
+Follow this [documentation](https://docs.docker.com/install/) to install Docker CE on Linux or Windows  
+
+For example, you can then run the tool by executing the command below to search for elasticsearch images
+
+`python client.py --search images`
 
 
 
