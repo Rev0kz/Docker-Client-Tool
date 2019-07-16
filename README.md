@@ -24,9 +24,15 @@ Follow this [documentation](https://docs.docker.com/install/) to install Docker 
 
 For example, you can then run the tool by executing the command below to search for elasticsearch images
 
-`python client.py --search elasticsearch`
+`python client.py --search elasticsearch`    
 
+To run the tool to pull Docker images from DockerHub, execute the following command 
 
+`python client.py pull-image nginx`         ` 
+
+To run the tool to push Docker images to DockerHub, execute the following command
+
+`python client.py push-image nginx`           
 
 ## Built With  
 
