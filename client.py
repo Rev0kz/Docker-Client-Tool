@@ -1,5 +1,6 @@
 import click 
-import subprocess   
+import subprocess  
+import docker
 
 @click.group() 
 def cli(): 
@@ -17,22 +18,21 @@ def docker_login():
 @click.argument('image')   
 def search_image(image):  
      """A simple CLI program to search for docker images on DockerHub"""
-     click.echo(client.images.search('image'))
+     click.echo(client.images.search(image))
 
 
 @click.command()
 @click.argument('image')
 def push_image(image):  
     """A python function to push Docker images to DockerHub"""  
-    click.echo(client.images.push('image')) 
+    click.echo(client.images.push(image)) 
 
 
 @click.command()
 @click.argument('image') 
 def pull_image(image):  
     """A python function to pull Docker images from DockerHub"""
-    click.echo(client.images.pull('image'))
-
+    click.echo(client.images.pull(image))
 
 cli.add_command(docker_login) 
 cli.add_command(search_image)
