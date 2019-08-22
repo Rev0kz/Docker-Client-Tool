@@ -2,6 +2,8 @@ import click
 import subprocess  
 import docker
 
+image=" "
+
 @click.group() 
 def cli(): 
   """A client tool written in python to allow Ops engineers to work on Docker images""" 
