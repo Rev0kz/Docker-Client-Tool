@@ -1,10 +1,8 @@
-This content belongs to Pusher. You can check out this tutorial on [Pusher](https://pusher.com/tutorials/docker-client-tool-python).
-
 # Docker-Client-Tool   
 
-This project shows developers how to make use of Click framework to build a client tool perform Docker operations. You can
-refer to the tutorial on Pusher.   
+This project shows developers how to make use of Click framework to build a client tool perform Docker operations. 
 
+This content belongs to Pusher. You can check out this tutorial on [Pusher](https://pusher.com/tutorials/docker-client-tool-python).
 
 ## Getting Started
 
